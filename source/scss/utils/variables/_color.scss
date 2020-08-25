@@ -1,0 +1,18 @@
+// Color
+$primary: #7828B4;
+$secondary: #9013FE;
+$success: #ff5e45;
+$danger: #be0027;
+$info: #00cc99;
+$muted: #a09e9e;
+$dark: rgba(black, 0.75);
+$light: rgba(white, 0.7);
+$white: white;
+$black: black;
+$font-color:#000;
+$pink:pink;
+$deep-pink:#e1306c;
+$menu_color: #EBEBEB;
+$search_color:#d7d7d7;
+$bg_color:#F2F2F2;
+$theme-color: ( 'primary': $primary, 'secondary': $secondary, 'success': $success, 'danger': $danger, 'info': $info, 'muted': $muted, 'light': $light, 'dark': $dark, 'white': $white, 'black': $black, );

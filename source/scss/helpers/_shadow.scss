@@ -1,0 +1,6 @@
+.h-shadow {
+    box-shadow: pxTorem(2px) pxTorem(5px) pxTorem(10px) 0 rgba(white, 0.1);
+    &__deepe r {
+        box-shadow: pxTorem(5px) pxTorem(5px) pxTorem(15px) 0 rgba(black, 0.8);
+    }
+}

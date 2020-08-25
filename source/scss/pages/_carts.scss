@@ -1,0 +1,31 @@
+// breadcrumb
+.e-breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: pxTorem(13px) pxTorem(16px);
+    margin-bottom: pxTorem(16px);
+    list-style: none;
+    background-color: $menu_color;
+    border-radius: pxTorem(4px);
+    width: 74%;
+    @include desktop_1024 {
+        width: 100%;
+        font-size: pxTorem(13px);
+    }
+    li {
+        &:first-child {
+            &:before {
+                display: none;
+            }
+        }
+        &:before {
+            display: inline-block;
+            padding-left: .5rem;
+            color: $font-color;
+            content: "/";
+        }
+        &.active {
+            color: $dark;
+        }
+    }
+}

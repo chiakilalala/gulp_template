@@ -1,0 +1,35 @@
+{
+    "name": "cae_web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "yilin",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.11.4",
+        "@babel/preset-env": "^7.11.0",
+        "@babel/register": "^7.10.5",
+        "autoprefixer": "^9.8.6",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-load-plugins": "^2.0.4",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-sass": "^4.1.0",
+        "node-sass": "^4.14.1"
+    },
+    "dependencies": {
+        "babel-core": "^6.26.3",
+        "browser-sync": "^2.26.12",
+        "gulp-concat": "^2.6.1",
+        "gulp-jade": "^1.1.0",
+        "gulp-sourcemaps": "^2.6.5"
+    },
+    "browserslist": [
+        "last 2 version",
+        "> 5%"
+    ]
+}

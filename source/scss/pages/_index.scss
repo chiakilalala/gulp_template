@@ -1,0 +1,156 @@
+//
+// 特色
+//
+.p-feature {
+    &__title {
+        position: relative;
+        padding: 0 pxTorem(16px);
+        text-align: center;
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            border-top: 1px solid $primary;
+            width: pxTorem(125px);
+            pointer-events: none;
+            @include media-breakpoint-down(sm) {
+                display: none;
+            }
+        }
+        &::before {
+            right: 100%;
+        }
+        &::after {
+            left: 100%;
+        }
+    }
+}
+
+//
+// 主廚
+//
+.p-chef {
+    &__img {
+        @include bg-cover;
+        height: pxTorem(460px);
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include full;
+    }
+}
+
+//
+// 評論
+//
+.p-comments {
+    &__comment {
+        display: flex;
+    }
+    &__comment-text {
+        display: flex;
+        flex-direction: column;
+    }
+    &__comment-title {
+        height: pxTorem(67px);
+        line-height: pxTorem(67px);
+    }
+    &__e-img {
+        margin-right: pxTorem(12px);
+        @include size(67px);
+    }
+}
+
+// 頁數
+.pages-change {
+    li {
+        float: left;
+    }
+    a {
+        display: block;
+        padding: pxTorem(15px);
+        text-decoration: none;
+        font-size: $font-b;
+        background-color: $white;
+        border: 1px solid #ECEEEF;
+        color: $secondary;
+        &:hover {
+            color: $white;
+            background-color: $secondary;
+        }
+    }
+}
+
+.result {
+    display: none;
+    margin-bottom: pxTorem(20px);
+}
+
+//右邊search 結果
+.result {
+    p {
+        font-size: $font-l;
+        color: $dark;
+        margin-bottom: pxTorem(10px);
+    }
+    a {
+        display: inline-block;
+        margin-right: pxTorem(5px);
+        padding: pxTorem(7px) pxTorem(20px);
+        text-decoration: none;
+        color: $primary;
+        border: 1px solid $primary;
+        border-radius: 100px;
+        transition: all 0.3s linear;
+        &:hover {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .result {
+        display: block;
+        p {}
+    }
+}
+
+// js 折疊選單
+// .js-collapse {
+//     @include mobile_576 {
+//         display: none;
+//     }
+// }
+.plus {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 6%;
+    cursor: pointer;
+    font-size: $font-b;
+    color: $muted;
+    padding: pxTorem(5px);
+    @include mobile_576 {
+        display: inline;
+    }
+    &-hide {
+        display: none;
+    }
+}
+
+.minus {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 9%;
+    &-pop {
+        @include mobile_576 {
+            display: inline;
+        }
+    }
+}

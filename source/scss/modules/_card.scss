@@ -1,0 +1,139 @@
+.m-card {
+    position: relative;
+    display: flex;
+    color: $secondary;
+    // max-width: pxTorem(300px);
+    background-color: $white;
+    transition: 0.5s;
+    &:hover {
+        @include shadow__deeper;
+    }
+    @include mobile_768 {
+        // max-width: pxTorem(368px);
+    }
+    &__body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 1;
+        @include mobile_576 {
+            padding: 0 pxTorem(30px) pxTorem(24px) pxTorem(30px);
+        }
+    }
+    &__content {
+        @include card;
+        max-width: pxTorem(644px);
+        @include mobile_576 {
+            margin-left: pxTorem(-15px);
+            margin-right: pxTorem(-15px);
+            // .m-card__tag {
+            //     @include mobile_576 {
+            //         display: none;
+            //     }
+            // }
+        }
+    }
+    &__footer {
+        display: flex;
+        flex-direction: column;
+    }
+    &__img {
+        max-width: pxTorem(220px);
+        min-height: pxTorem(220px);
+        object-fit: cover;
+        object-position: center center;
+        @include desktop_1024 {
+            max-width: 100%;
+        }
+    }
+    &__title {
+        text-align: left;
+        font-size: $font-xl;
+        font-weight: bold;
+        padding-top: pxTorem(20px);
+        line-height: $base-line-height - 0.2;
+    }
+    &__sub-title {
+        display: block;
+        position: relative;
+        font-size: $font-b;
+        line-height: $base-line-height;
+        color: $font-color;
+        font-weight: $font-weight-regular;
+    }
+    &__info {
+        // margin: pxTorem(16px) 0;
+        font-size: $font-b;
+        font-weight: $font-weight-bold;
+        color: $font-color;
+        display: flex;
+        align-items: center;
+        @include mobile_768 {
+            padding: pxTorem(14px) 0;
+            font-size: $font-s;
+        }
+    }
+    &__tag {
+        background: #D7D7D7;
+        border-radius: 20px;
+        color: $white;
+        font-weight: $font-weight-regular;
+        font-style: italic;
+        padding: pxTorem(3px) pxTorem(16px);
+        margin: pxTorem(14px);
+        @include mobile_576 {
+            margin: 0;
+            margin-left: pxTorem(20px);
+        }
+    }
+    &__list {
+        list-style: none;
+        color: $font-color;
+        display: flex;
+        i {
+            color: $black;
+            margin-right: pxTorem(7px);
+        }
+        li {
+            margin-right: 10px;
+            display: inline-flex;
+            color: #9B9B9B;
+            align-items: center;
+            @include mobile_576 {
+                font-size: $font-s;
+            }
+        }
+    }
+    &__list--content {
+        @include infolist;
+        @include mobile_768 {
+            font-size: $font-s;
+        }
+    }
+    &__button {
+        flex: 1;
+        transition: 0.5s;
+        border: 2px solid #eee;
+        border-radius: 3px;
+        padding: pxTorem(3px) 0;
+        line-height: 1;
+        text-align: center;
+        &:hover {
+            background-color: #eee;
+        }
+        >i {
+            padding-right: pxTorem(9px);
+        }
+        @each $name,
+        $value in $theme-color {
+            &_#{$name} {
+                color: $value;
+                border-color: $value;
+                &:hover {
+                    background-color: $value;
+                    color: white;
+                }
+            }
+        }
+    }
+}

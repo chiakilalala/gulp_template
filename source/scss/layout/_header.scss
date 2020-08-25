@@ -1,0 +1,15 @@
+.wrap {
+    max-width: 320px;
+    margin: auto;
+}
+
+.l-header {
+    position: relative;
+    overflow: hidden;
+}
+
+.e-navbar__top {
+    @include mobile_576 {
+        background: $primary;
+    }
+}

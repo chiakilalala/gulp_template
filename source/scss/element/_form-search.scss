@@ -1,0 +1,50 @@
+.e-form-search {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid $white;
+    height: pxTorem(32px);
+    color: $white;
+    width: pxTorem(388px);
+    @include mobile_576 {
+        justify-content: center;
+        border-bottom: 1px solid $dark;
+        width: pxTorem(250px);
+    }
+    &__header {
+        @include mobile_576 {
+            padding: pxTorem(14px) 0;
+            background: #d7d7d7;
+            display: flex;
+            justify-content: center;
+            @include box-shadow($x-axis: 0, $y-axis: 5px, $blur: 10px, $color: $white);
+        }
+    }
+    input[type='text'] {
+        color: $white;
+        flex: 1;
+        padding: pxTorem(4px);
+        &::placeholder {
+            @include mobile_576 {
+                color: $dark;
+                font-style: italic;
+                padding: 0;
+            }
+        }
+    }
+    button {
+        @include content-center;
+        flex-shrink: 0;
+        background-color: $primary;
+        width: pxTorem(36px);
+        height: 100%;
+        color: white;
+        i {
+            @include mobile_576 {
+                color: $dark;
+            }
+        }
+        @include mobile_576 {
+            background: transparent;
+        }
+    }
+}

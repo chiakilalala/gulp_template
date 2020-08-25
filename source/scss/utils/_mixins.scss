@@ -1,0 +1,139 @@
+// 背景填滿置中
+@mixin bg-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+// 背景圖片失效預設顏色 (透明圖片不可使用)
+@mixin bg-img($color, $url) {
+    background-color: $color;
+    background-image: url($url);
+}
+
+// 尺寸
+@mixin size($w, $h: $w) {
+    width: pxTorem($w);
+    height: pxTorem($h);
+}
+
+// 塞滿
+@mixin full {
+    width: 100%;
+    height: 100%;
+}
+
+// 容器水平垂直置中
+@mixin container-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// 內容垂直置中
+@mixin content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// 陰影
+@mixin box-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $color: $default) {
+    box-shadow: $x-axis $y-axis $blur $color;
+}
+
+@mixin infolist {
+    list-style: none;
+    color: $font-color;
+    display: flex;
+    i {
+        color: $black;
+        margin-right: pxTorem(7px);
+    }
+    li {
+        margin-right: 10px;
+        display: inline-flex;
+        color: #9B9B9B;
+        align-items: center;
+    }
+}
+
+// 自訂 col 間距
+@mixin col-gutters($gutters) {
+    $guttersTorem: pxTorem($gutters);
+    .row {
+        margin-right: -($guttersTorem/2);
+        margin-left: -($guttersTorem/2);
+    }
+    [class^='col'] {
+        padding-right: ($guttersTorem/2);
+        padding-left: ($guttersTorem/2);
+    }
+}
+
+// card
+@mixin card {
+    position: relative;
+    display: flex;
+    color: $secondary;
+    // max-width: pxTorem(300px);
+    background-color: $white;
+    transition: 0.5s;
+}
+
+// 圓形
+@mixin circle {
+    border-radius: 50%;
+}
+
+@mixin shadow__deeper {
+    box-shadow: pxTorem(5px) pxTorem(5px) pxTorem(15px) 0 rgba(black, 0.8);
+}
+
+// checkbox 樣式改變
+
+/* Desktop first */
+
+@mixin desktop_1200 {
+    @media (max-width: 1200px) {
+        @content
+    }
+}
+
+;
+@mixin desktop_1024 {
+    @media (max-width: 1024px) {
+        @content
+    }
+}
+
+;
+@mixin desktop_992 {
+    @media (max-width: 992px) {
+        @content
+    }
+}
+
+;
+@mixin mobile_768 {
+    @media (max-width: 768px) {
+        @content
+    }
+}
+
+;
+@mixin mobile_576 {
+    @media (max-width: 576px) {
+        @content
+    }
+}
+
+;
+@mixin mobile_min576 {
+    @media (min-width: 576px) {
+        @content
+    }
+}
+
+;

@@ -1,11 +1,21 @@
 // breadcrumb
+.main-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.wrapper_color {
+    background-color: #F0F0F7;
+}
+
 .e-breadcrumb {
     display: flex;
     flex-wrap: wrap;
-    padding: pxTorem(13px) pxTorem(16px);
-    margin-bottom: pxTorem(16px);
+    padding: pxTorem(30px) pxTorem(0px);
+    margin-bottom: pxTorem(36px);
     list-style: none;
-    background-color: $menu_color;
+    // background-color: $menu_color;
     border-radius: pxTorem(4px);
     width: 74%;
     @include desktop_1024 {
@@ -28,4 +38,80 @@
             color: $dark;
         }
     }
+}
+
+.e_news {
+    h3 {
+        color: $dark;
+        font-size: pxTorem(20px);
+        margin: 30px 0;
+        i {
+            color: #A5A4BF;
+            padding-right: 10px;
+            font-size: pxTorem(22px);
+        }
+    }
+    // background-color: $white;
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    // 顏色樣式
+    @each $name,
+    $value in $theme-color {
+        &_#{$name} {
+            background-color: $value;
+        }
+    }
+}
+
+.items_news {
+    border-radius: 1.25rem;
+    border: 3px solid;
+    background-color: $white;
+    width: 100%;
+    min-height: 40px;
+    padding: 20px 25px;
+    @each $name,
+    $value in $theme-color {
+        &_#{$name} {
+            border-color: $value;
+        }
+    }
+    .oneNews {
+        h2 {
+            display: block;
+            font-size: 100%;
+            color: #2f2f2e;
+            margin-right: 10px;
+            max-width: calc(100% - 45px);
+            height: 25px;
+            font-size: pxTorem(14px);
+            overflow: hidden;
+            // vertical-align: middle;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .newsDate {
+            display: inline-block;
+            background: #3D9AC6;
+            padding: 5px 4px 5px 6px;
+            color: #FFF;
+            font-size: 14px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            @each $name,
+            $value in $theme-color {
+                &_#{$name} {
+                    background-color: $value;
+                }
+            }
+        }
+    }
+}
+
+li.oneNews>a {
+    display: block;
+    padding: 3px 0;
 }

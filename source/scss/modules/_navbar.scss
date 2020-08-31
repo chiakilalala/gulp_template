@@ -1,8 +1,16 @@
-$navbar-height: pxTorem(92px);
+$navbar-height: pxTorem(200px);
+$subNavbar-height:pxTorem(78px);
+.m-subnav {
+    background: #f8f6ed;
+    padding: 0 13%;
+    font-size: 80%;
+    height: $subNavbar-height
+}
+
 .m-nav {
     width: 100%;
     height: $navbar-height;
-    background-color: $primary;
+    background-color: $white;
     color: $white;
     padding-left: pxTorem(78px);
 }
@@ -13,7 +21,7 @@ $navbar-height: pxTorem(92px);
     flex-wrap: wrap;
     align-items: center;
     // justify-content: space-between;
-    background-color: $primary;
+    background-color: $white;
     height: $navbar-height;
     @include mobile_576 {
         height: auto;
@@ -53,6 +61,14 @@ $navbar-height: pxTorem(92px);
         //     background-color: black;
         //     width: 100%;
         // }
+    }
+    &__sublink {
+        display: flex;
+        color: black;
+        font-size: pxTorem(14px);
+        &.is-active {
+            transform: translateY(0);
+        }
     }
     &__link {
         @include content-center;
@@ -204,4 +220,11 @@ $navbar-height: pxTorem(92px);
         left: 0;
         z-index: 999;
     }
+}
+
+ul.m-navbar__sub {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-size: 0.875rem;
 }

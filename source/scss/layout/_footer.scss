@@ -1,16 +1,35 @@
 .l-footer {
-  &__connection {
-    list-style-position: inside;
-  }
-  &__company {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  &__social {
-    font-size: $font-xxl;
-  }
-  &__copyright {
-    font-size: $font-s;
-  }
+    h2 {
+        font-size: pxTorem(30px);
+    }
+    &__connection {
+        list-style-position: inside;
+        li {
+            margin-bottom: 12px;
+            ;
+        }
+    }
+    &__company {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__social {
+        font-size: $font-xxl;
+    }
+    &__copyright {
+        font-size: $font-s;
+    }
+    &__Qimg {
+        // @include bg-cover;
+        // height: pxTorem(138px);
+        // width: pxTorem(138px);
+        // background-size: contain;
+        // background-position: center bottom;
+        // // padding-bottom: 88%;
+        display: block;
+        @include bg-cover;
+        height: pxTorem(138px);
+        width: pxTorem(138px);
+    }
 }

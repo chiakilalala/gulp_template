@@ -115,7 +115,7 @@
         transition: 0.5s;
         border: 2px solid #eee;
         border-radius: 3px;
-        padding: pxTorem(3px) 0;
+        padding: pxTorem(3px) pxTorem(4px);
         line-height: 1;
         text-align: center;
         &:hover {

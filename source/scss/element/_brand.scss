@@ -1,7 +1,7 @@
 .e-brand {
     display: block;
     @include bg-cover;
-    @include size(157px, 27px);
+    @include size(330px, 53px);
     &_size_lg {
         @include size(245px, 49px);
     }

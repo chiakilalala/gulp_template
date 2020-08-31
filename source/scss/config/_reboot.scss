@@ -15,13 +15,18 @@ html {
     font-size: $browser-default-font-size;
 }
 
+html,
+body {
+    height: 100%
+}
+
 //
 // Body
 //
 body {
     background-color: $bg_color;
-    color: $primary;
-    font-family: $Roboto;
+    color: $mainTab-color;
+    font-family: Arial, Helvetica, 'Noto Sans TC', "Microsoft JhengHei", Sans-Serif;
     font-size: $base-font-size;
     font-weight: $font-weight-light;
     line-height: $base-line-height;
@@ -75,9 +80,9 @@ h6 {
 //
 a {
     text-decoration: none;
-    color: $secondary;
+    color: $mainTab-color;
     &:hover {
-        color: $success;
+        color: $primary;
     }
 }
 

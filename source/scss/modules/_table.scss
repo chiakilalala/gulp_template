@@ -1,0 +1,263 @@
+.table-wrapper {
+    padding: 25px;
+}
+
+table {
+    width: 100%;
+    // 顏色樣式
+    @each $name,
+    $value in $theme-color {
+        &_#{$name} {
+            background-color: $value;
+        }
+    }
+}
+
+.table_main thead th {
+    background-color: $btn-color;
+}
+
+.table_tab_color thead th {
+    background-color: $tab-color;
+}
+
+.table_tab_color tbody tr,
+.table_main tbody tr {
+    background-color: #fff;
+    padding: 8px;
+}
+
+.table_tab_color tbody tr,
+.table_tab_color tbody tr th,
+.table_main tbody tr,
+.table_main tbody tr th {
+    background-color: #fff;
+    color: $dark;
+    border-left: none;
+    border-right: none;
+}
+
+table th,
+table td {
+    padding: 8px 10px;
+    border: 1px dashed #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+table th {
+    border-left: none;
+    border-right: none;
+    color: white
+}
+
+table th {
+    background-color: #eee;
+}
+
+
+/* Actual responsive styling */
+
+@media (max-width: 767px) {
+    .table-responsive-scroll {
+        display: block;
+    }
+    .table-responsive-scroll thead {
+        display: block;
+        float: left;
+    }
+    .table-responsive-scroll thead tr,
+    .table-responsive-scroll thead th {
+        display: block;
+    }
+    .table-responsive-scroll thead th+th {
+        border-top: 0;
+    }
+    .table-responsive-scroll tbody {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: auto;
+        white-space: nowrap;
+    }
+    .table-responsive-scroll tbody tr {
+        display: inline-block;
+        border-right: 1px solid #ccc;
+    }
+    .table-responsive-scroll tbody td {
+        display: block;
+        border-width: 1px 0 0 0;
+    }
+    .table-responsive-scroll tbody td:last-child {
+        border-bottom-width: 1px;
+    }
+    .table-responsive-blocks,
+    .table-responsive-blocks thead,
+    .table-responsive-blocks tbody,
+    .table-responsive-blocks tr,
+    .table-responsive-blocks th,
+    .table-responsive-blocks td {
+        display: block;
+    }
+    .table-responsive-blocks tr {
+        margin: 10px 0;
+        border-top: 3px solid #ccc;
+        border-bottom: 3px solid #ccc;
+    }
+    .table-responsive-blocks tr:nth-child(2n+1) {
+        background-color: #eee;
+    }
+    .table-responsive-blocks thead tr {
+        position: absolute;
+        left: -9999px;
+        top: -9999px;
+    }
+    .table-responsive-blocks tbody td {
+        position: relative;
+        /* padding-left: 50%; */
+        border: 1px solid #ccc;
+        border-width: 0 1px 1px 1px;
+    }
+    .table-responsive-blocks tbody td:last-child {
+        border-bottom-width: 0;
+    }
+    .table-responsive-blocks tbody td:before {
+        content: attr(data-title);
+        display: inline-block;
+        /* position: relative; */
+        /* left: 0px; */
+        width: 45%;
+        padding-right: 5%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 991px) {
+    .responsive>thead th {
+        display: none;
+    }
+    .responsive>tbody td,
+    .responsive>tbody th {
+        display: block;
+    }
+    .responsive>tbody>tr:nth-child(even) td,
+    .responsive>tbody>tr:nth-child(even) th {
+        background-color: #eee;
+    }
+    [row-header] {
+        position: relative;
+        width: 50%;
+        vertical-align: middle;
+    }
+    [row-header]:before {
+        content: attr(row-header);
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        width: 50%;
+        padding-right: 30px;
+    }
+}
+
+.styled-select {
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    padding: 0px 6px;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: $white;
+    height: 35px;
+}
+
+.styled-select,
+.styled-select select {
+    // width: 240px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.styled-select select {
+    height: 36px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    /*hide default down arrow in webkit */
+    -webkit-appearance: none;
+}
+
+@-moz-document url-prefix() {
+    .styled-select select {
+        width: 110%;
+    }
+}
+
+.fa-sort-desc {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    font-size: 24px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+
+/* hide default down arrow in IE10*/
+
+
+/* hack to fall back in opera */
+
+_:-o-prefocus,
+.selector {
+    .styled-select {
+        background: none;
+    }
+}
+
+.toolbar {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    // width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 8px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    max-width: 250px;
+    background-color: $white;
+    color: $dark
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}

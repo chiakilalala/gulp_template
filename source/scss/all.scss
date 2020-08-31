@@ -1,5 +1,6 @@
 // vendors
 @import 'vendors/googleFonts';
+@import 'pages/jqueryUI';
 // utils
 @import 'utils/functions';
 @import 'utils/variables';
@@ -9,9 +10,9 @@
 @import 'config/form-reset';
 @import 'config/reboot';
 // helpers
-@import '../node_modules/bootstrap-4-grid/scss/breakpoints/mixins/breakpoints';
-@import '../node_modules/bootstrap-4-grid/scss/grid/bootstrap-grid';
-@import '../node_modules/bootstrap-4-grid/scss/layout/utilities/spacing';
+@import '../../node_modules/bootstrap/scss/mixins/breakpoints';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid';
+@import '../../node_modules/bootstrap/scss/utilities/spacing';
 @import 'helpers/colors';
 @import 'helpers/text';
 @import 'helpers/border';
@@ -35,9 +36,12 @@
 @import 'modules/member-form';
 @import 'modules/navbar';
 @import 'modules/reserve-form';
+@import 'modules/swiper';
+@import'modules/table';
 // layout
 @import 'layout/footer';
 @import 'layout/header';
 // pages
 @import 'pages/index';
 @import 'pages/carts';
+@import 'pages/comment';

@@ -1,0 +1,23 @@
+.demo {
+    width: 750px;
+    position: relative;
+    ul {
+        list-style: none outside none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    li {
+        display: block;
+        float: left;
+        margin-right: 6px;
+        cursor: pointer;
+    }
+    img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+    .lSAction>a {
+        background-image: url(../../img/controls.png);
+    }
+}

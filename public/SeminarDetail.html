@@ -11,13 +11,76 @@
     <script src="./js/jquery.3.31.js">
     </script>
 
-    <script src="./js/jquery.ui.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous"></script>
+        <script src="./js/jquery.ui.js "></script>
     <script src="./js/jquery.mCustomScrollbar.concat.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
 </head>
 
 <body>
-    <div class="wrapper wrapper_color">
+    <div class="wrapper wrapper_color outerWrap">
+       <!-- searchArea -->
+        <div class="searchArea" style="">
+            <!-- searchArea -->
+            <a href="javascript:;" class="btnClose">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="inner">
+                <!-- inner -->
+                <form class="search-container">
+                    <input type="text" id="search-bar" placeholder="搜尋關鍵字...">
+                    <button type="submit" class="search_Button">
+                        <i class="fa fa-search"></i>
+                     </button>
+                </form>
+                <!-- inner end -->
+            </div>
+
+        </div>
+        <!--loginArea-->
+        <div class="loginArea moduleBox" id="moduleMember">
+            <div class="box">
+                <!--box-->
+                <a id="closeLogin" class="moduleClose"><i class="fas fa-times"></i></a>
+                <div class="login">
+                    <!--login-->
+                    <h4>會員登入</h4>
+                    <input type="hidden" id="course">
+                    <input name="login_account" type="text" class="b-box" id="login_account" placeholder="帳號">
+                    <input name="login_pwd" type="password" class="b-box" id="login_pwd" placeholder="密碼">
+                    <div class="btn">
+                        <a class="btn_color1 login_btn_status" style="cursor:pointer" onclick="login_btn();">登入</a><i class="fa fa-spinner fa-spin login_loading_status"></i>
+                    </div>
+                    <div class="btns">
+                        <a class="btn_forget">忘記密碼</a>
+                    </div>
+                    <div class="btns">
+                        還不是會員?
+                        <a class="btn_register" onclick="location.href='">註冊會員</a>
+                    </div>
+                </div>
+                <!--login end-->
+
+
+
+                <div class="forgetCheck">
+                    <!--forgetCheck-->
+                    <h4>查詢密碼</h4>
+                    <input name="email_chk" type="text" class="b-box" id="email_chk" placeholder="e-mail">
+                    <div class="btn">
+                        <a class="btn_color1 forget_btn_status" style="cursor:pointer">查詢</a><i class="fa fa-spinner fa-spin forget_loading_status" style="display:none"></i>
+                    </div>
+                    <div class="btns">
+                        <a class="btn_relog">重新登入</a>
+                    </div>
+                </div>
+                <!--forgetCheck end-->
+            </div>
+            <!--box end-->
+        </div>
+        <!--loginArea end-->
         <section class="Nav">
             <nav class="topNavWrap">
 

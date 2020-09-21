@@ -1,0 +1,74 @@
+.accordion {
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.m-content {
+    margin: 4.25rem 0 0 0;
+    .articleTitle {
+        font-size: pxTorem(25px);
+        color: $dark;
+    }
+}
+
+
+/* Thumb */
+
+.accordion-thumb {
+    margin: 0;
+    padding: .8rem 0;
+    cursor: pointer;
+    background-color: $btn-color;
+    font-weight: normal;
+    color: $white;
+    // Chevron
+    &::before {
+        content: '';
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        margin-right: 1rem;
+        margin-left: .5rem;
+        vertical-align: middle;
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+        transform: rotate(-45deg);
+        transition: transform .2s ease-out;
+    }
+}
+
+
+/* Panel */
+
+.accordion-panel {
+    margin: 0;
+    padding-bottom: .8rem;
+    display: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+}
+
+
+/* Active */
+
+.accordion-item.is-active {
+    .accordion-thumb::before {
+        transform: rotate(45deg);
+    }
+}
+
+
+/*member-right*/
+
+.tab-content {
+    .accordion {
+        width: 100%;
+    }
+}

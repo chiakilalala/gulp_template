@@ -1,0 +1,174 @@
+    .moduleMask {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1003;
+        background-color: rgba(17, 17, 17, 0.92);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: all 0.5s ease;
+        &.show {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+    }
+    
+    .loginArea {
+        width: 92%;
+        max-width: 480px;
+        padding: 5px;
+        background: linear-gradient(-144deg, $primary 0%, $btn-color 100%);
+    }
+    
+    .moduleBox.show {
+        top: 50%;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    
+    .moduleBox {
+        position: fixed;
+        left: 50%;
+        top: 48%;
+        transform: translate(-50%, -55%);
+        z-index: 1005;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: all 0.5s ease;
+    }
+    
+    .loginArea .box {
+        position: relative;
+        width: auto;
+        padding: 50px 30px 30px;
+        background: #fff;
+    }
+    
+    a#closeLogin {
+        width: 50px;
+        height: 50px;
+        background: $third-color;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        font-size: 18px;
+        color: #fff;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .loginArea .login {}
+    
+    // .loginArea input[type="text"],
+    // .loginArea input[type="password"] {
+    //     width: 100%;
+    //     height: 40px;
+    //     margin-bottom: 10px;
+    //     padding: 5px;
+    //     border: 1px solid #ccc;
+    // }
+    .loginArea .btn,
+    .loginArea .btns {
+        text-align: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    .loginArea .btn a {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        padding-right: 0;
+        background: $btn-color;
+        display: block;
+        color: $white;
+        &:hover {
+            background: $info;
+            color: $dark;
+        }
+    }
+    
+    .loginArea .btn,
+    .loginArea .btns {
+        text-align: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    .loginArea .btns {
+        margin-top: 15px;
+    }
+    
+    .loginArea .btn_register {
+        color: #f67e2a;
+    }
+    
+    .loginArea .forgetCheck {
+        display: none;
+    }
+    
+    .articleTitle {
+        color: #333;
+        font-size: pxTorem(30px);
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        line-height: 1.4;
+        margin: 5px 0 10px;
+        padding: 0 0 30px;
+        position: relative;
+        text-align: left;
+        &:before {
+            content: '';
+            width: 100%;
+            height: 12px;
+            background: url(../../img/dash.png) repeat top left;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+    
+    .title_line {
+        margin: 20px 0 0;
+        padding: 8px 10px;
+        font-size: pxTorem(16px);
+        color: $dark;
+        border-top: 2px solid $ad_color;
+        border-bottom: 2px solid $ad_color;
+    }
+    
+    .textEditor {
+        padding-top: 40px;
+        color: #444;
+        font-size: pxTorem(15px);
+        font-weight: 400;
+        letter-spacing: 0.8px;
+        line-height: 26px;
+        color: #333;
+        padding: 30px 0;
+        p,
+        ul {
+            padding: 0 8px;
+        }
+        img {
+            padding: 5px 8px;
+        }
+    }
+    
+    .txtTitle {
+        color: $ad_color;
+        font-size: pxTorem(16px);
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin: 12px 0;
+        span {
+            color: $dark;
+            font-size: pxTorem(14px);
+        }
+    }

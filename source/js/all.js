@@ -77,11 +77,11 @@ $(function() {
         }
     }
 
-    if ($('.leftBtns > li > a.focus').text() === '姊妹鐵道') {
-        var dom = $('.leftBtns > li > a.focus').next('ul.focus').clone().addClass('desktop-listbutton');
-        $('h1').before(dom);
-        $('.desktop-listbutton').removeClass('focus');
-    }
+    // if ($('.leftBtns > li > a.focus').text() === '姊妹鐵道') {
+    //     var dom = $('.leftBtns > li > a.focus').next('ul.focus').clone().addClass('desktop-listbutton');
+    //     $('h1').before(dom);
+    //     $('.desktop-listbutton').removeClass('focus');
+    // }
 
     var addScrollbarMenu = $('.topNav>li ul li ul');
 
@@ -418,7 +418,76 @@ $(function() {
         e.preventDefault();
     });
 
+    $('.outerWrap').after('<div class="moduleMask"></div>');
+    $('.openModule').click(function() {
+        var obj = $(this).attr('href');
+        $(obj).addClass('show');
+        $('.moduleMask').addClass('show');
+        $('body').css('overflow', 'hidden');
+        return false;
+    });
+    $('.moduleMask, .moduleClose').click(function() {
+        $('.moduleBox, .moduleMask').removeClass('show');
+        $('body').css('overflow', 'auto');
+    });
+
 });
+
+/* 首頁search */
+
+$('.btnSearch').click(function() {
+    $('.searchArea').fadeIn();
+});
+$('.searchArea').find('.btnClose').click(function() {
+    $('.searchArea').fadeOut();
+});
+
+
+
+
+/*首頁登入 */
+
+
+$(function() {
+
+    $('.btn_forget').click(function() {
+        $('.forgetCheck').slideDown(200);
+
+        $('.login').slideUp(200);
+    });
+
+    $('.btn_relog').click(function() {
+
+        $('.forgetCheck').slideUp(200);
+        $('.login').slideDown(200);
+    })
+
+});
+
+
+
+
+// function verify_btn() {
+//     var errors = '';
+//     if ($('.loginArea #resend_mail').val() == '') {
+//         errors += '- 必須填寫註冊的電子郵件。\n';
+//     } else if (!isEmail($('.loginArea #resend_mail').val())) {
+//         errors += '- 必須填寫正確的電子郵件位址。\n';
+//     }
+//     if ($('.loginArea #resend_phone').val() == '') {
+//         errors += '- 必須填寫註冊的行動電話。\n';
+//     }
+//     if (errors != '') {
+//         alert('錯誤訊息：\n' + errors);
+//         return false;
+//     }
+//     $(".resend_btn_status").hide();
+//     $(".resend_loading_status").show();
+//     jq_post_noloading('https://hesp.ccu.edu.tw/member/act.php', 'act=20&resend_mail=' + $('.loginArea #resend_mail').val() + '&resend_phone=' + $('.loginArea #resend_phone').val(), 'iframe_string');
+// }
+
+
+
 
 /*首頁輪播 */
 
@@ -563,4 +632,55 @@ $(function() {
 
 
 
+});
+
+
+/*faq accordin */
+
+$(function() {
+    // (Optional) Active an item if it has the class "is-active"	
+    $(".accordion > .accordion-item.is-active").children(".accordion-panel").slideDown();
+
+    $(".accordion > .accordion-item").click(function() {
+        // Cancel the siblings
+        $(this).siblings(".accordion-item").removeClass("is-active").children(".accordion-panel").slideUp();
+        // Toggle the item
+        $(this).toggleClass("is-active").children(".accordion-panel").slideToggle("ease-out");
+    });
+});
+
+/*  問題 first q&a*/
+(function($) {
+    $(document).ready(function() {
+        //step1 hide all content divs
+        $('#generic-tabs div').hide();
+        //step2 show the first content div
+        $('#generic-tabs div:first').show();
+
+        //Add actice class to the first tab link
+        $('#generic-tabs ul#Member_tabs li:first').addClass('active');
+        //when a tab is clicked 
+        $('#generic-tabs ul#Member_tabs li a').click(function() {
+            //firstly remove the current active class
+            $('#generic-tabs ul#Member_tabs li ').removeClass('active');
+            //apply active class to parent(li) of the link tag
+            $(this).parent().addClass('active');
+            var CurrentTab = $(this).attr('href');
+            //set the current Tab to the link
+            //hide away all tabs
+            $('#generic-tabs div').hide();
+            //show the current tab
+            $(CurrentTab).show();
+            //Stop default link action from happening
+            return false;
+        });
+    });
+})(window.jQuery);
+
+$('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop: true,
+    slideMargin: 0,
+    thumbItem: 5
 });

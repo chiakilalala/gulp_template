@@ -3,6 +3,7 @@
     max-width: 1440px;
     margin: 0 auto;
     clear: both;
+    min-height: 560px;
 }
 
 .wrapper_color {
@@ -15,9 +16,9 @@
     padding: pxTorem(30px) pxTorem(0px);
     margin-bottom: pxTorem(36px);
     list-style: none;
+    margin-left: pxTorem(19px);
     // background-color: $menu_color;
-    border-radius: pxTorem(4px);
-    width: 74%;
+    width: 100%;
     @include desktop_1024 {
         width: 100%;
         font-size: pxTorem(13px);
@@ -56,6 +57,12 @@
     // align-items: center;
     flex-direction: column;
     margin-bottom: 20px;
+    padding:0 pxTorem(16px);
+    @media screen and (max-width: 1024px) {
+        .switchpic {
+            display: none!important;
+        }
+    }
     // 顏色樣式
     @each $name,
     $value in $theme-color {
@@ -114,4 +121,21 @@
 li.oneNews>a {
     display: block;
     padding: 3px 0;
+}
+
+.m-ponent {
+    margin: 7.25rem 0;
+    h2 {
+        color: $dark;
+        font-size: pxTorem(20px);
+        margin: 10px 0 20px 0;
+        text-align: center;
+    }
+    h3.articleTitle {}
+    .article p {
+        font-size: pxTorem(16px);
+        line-height: 32px;
+        color: $dark;
+        margin-bottom: 10px;
+    }
 }

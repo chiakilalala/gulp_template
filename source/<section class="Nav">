@@ -1,0 +1,1454 @@
+<section class="Nav">
+            <nav class="subNavWrap">
+			<a href="#C" class="firstGoTo ScreenReadersOnly" title="跳到主要內容區塊" tabindex="1">跳到主要內容區塊</a>    	
+            <a href="javascript:void(0)" class="menuControl" title="展開選單">展開選單</a>
+                <a href="/" id="ctl00_linkLogo" title="林務局全球資訊網Logo-回首頁" class="logo"><h1>林務局全球資訊網</h1></a>
+                <div class="subNav">					 
+                    <a href="#U" id="U" name="U" accesskey="U" class="acc" title="上方選單區導盲磚">:::</a>
+		<ul class="subNavOther"> 
+					
+				    <!-- ████↓↓ 音樂 ↓↓████ -->
+                        <li class="music">
+                            <a href="javascript:;" class="musicBtn OpenMusic" title="音樂控制">音樂控制</a>                            
+                            <audio loop="" class="indexMusic" id="indexMusic">
+                                <source src="common/music/index_music.mp3">
+                                <source src="common/music/index_music.ogg">
+                            </audio>
+                        </li>
+						 <li class="share">
+		            	    <a href="javascript:void(0)" title="分享">分享 </a>
+			                <ul style="display: none;">
+			                   <li class="fb"><a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fwww.forest.gov.tw%2F" title="Facebook" target="_blank">Facebook</a></li>
+			                   
+			                   <li class="twitter"><a href="http://twitter.com/home/?status=%E6%9E%97%E5%8B%99%E5%B1%80%E5%85%A8%E7%90%83%E8%B3%87%E8%A8%8A%E7%B6%B2" title="twitter" target="_blank">twitter</a></li>
+			                   <li class="plurk"><a href="http://www.plurk.com/?qualifier=shares&amp;status=https%3A%2F%2Fwww.forest.gov.tw%2F (%E6%9E%97%E5%8B%99%E5%B1%80%E5%85%A8%E7%90%83%E8%B3%87%E8%A8%8A%E7%B6%B2)" title="plurk" target="_blank">plurk</a></li>
+			                </ul>
+		         	    </li>
+					</ul>
+                      <ul class="subNavTxt"><li><a "="" target="_self" href="/sitemap">網站導覽</a></li><li><a "="" target="_self" href="/suggestion">首長信箱</a></li><li><a "="" target="_self" href="http://ethics.forest.gov.tw">廉政園地</a></li><li><a "="" target="_self" href="/gender">性別平等</a></li><li><a "="" target="_self" href="/bilingual">雙語詞彙對照</a></li><li><a "="" target="_self" href="/faqs">常見問答</a></li></ul>  
+                    <ul class="subNavOther">  
+                        <!-- ████↑↑ 音樂 ↑↑████ -->					    <li class="lan"><a href="/EN" id="ctl00_lnkLangSelect" title="English">English</a></li>
+				    </ul>
+                </div>
+            </nav>
+            <nav class="mainNavWrap hideMenu" style=""> 
+            <ul class="topNav">
+                            <li id="ctl00_rpt_MainNav_ctl01_Level1" data-parenid="10000003" class="NoLv3">
+                                <a "="" target="_self" href="/policies">
+                                    <span>重大政策 </span>
+                                </a>
+                                <ul style="display: none;">
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="http://theme.forest.gov.tw/Policies/Important-Policies/" rel="nofollow">
+                                                重要施政方針
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0002812">
+                                                國土生態保育綠色網絡建置計畫
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0002636">
+                                                森林永續經營及產業振興計畫
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0000154">
+                                                時空資訊雲落實智慧國土計畫
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0002415">
+                                                環境資源資料庫計畫子計畫(服務型智慧政府推動計畫-第五階段電子化政府計畫)
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="http://www.forest.gov.tw/0002649">
+                                                前瞻基礎建設-水環境：縣市管河川及區域排水整體改善計畫
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="http://www.forest.gov.tw/0002648">
+                                                前瞻基礎建設-水環境：加強水庫集水區保育治理計畫
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="http://www.forest.gov.tw/0002647">
+                                                前瞻基礎建設-軌道建設：阿里山森林鐵路42 號隧道計畫
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="https://www.forest.gov.tw/0002998">
+                                                前瞻基礎建設-軌道建設：阿里山林業鐵路設施設備安全提升計畫
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl02_Level1" data-parenid="10000007" class="">
+                                <a "="" target="_self" href="/news">
+                                    <span>訊息專區</span>
+                                </a>
+                                <ul style="display: none;">
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/all-news">
+                                                最新消息
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/forest-news">
+                                                林業新聞
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/announcements">
+                                                業務公告
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/auction">
+                                                林產標售公告
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_1 mCS_no_scrollbar"><div id="mCSB_1" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002797">
+                                                            林產資訊
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/events">
+                                                焦點活動
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/job">
+                                                事求人
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/clarify">
+                                                爭議訊息澄清專區
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0003216">
+                                                嚴重特殊傳染性肺炎(COVID-19)專區
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_2 mCS_no_scrollbar"><div id="mCSB_2" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_2_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0003252">
+                                                            宣導影片
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a title="另開視窗" target="_blank" href="https://www.coa.gov.tw/COVID_19/index.php" rel="nofollow">
+                                                            農產業紓困振興專區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a title="另開視窗" target="_blank" href="/CheckUrl.aspx?Url=https%3A%2F%2F1988.taiwan.gov.tw%2F" rel="nofollow">
+                                                            行政院紓困振興專區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0003283">
+                                                            1988紓困振興專線
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_2_scrollbar_vertical" class="mCSB_scrollTools mCSB_2_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_2_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl03_Level1" data-parenid="10000009" class="">
+                                <a "="" target="_self" href="/about">
+                                    <span>關於本局</span>
+                                </a>
+                                <ul style="display: none;">
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/vision">
+                                                林務局願景
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/history">
+                                                林務局沿革
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="https://www.forest.gov.tw/0002092">
+                                                林務局簡介
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/milestones">
+                                                林業大事紀
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/administration">
+                                                首長及主管簡介
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_3 mCS_no_scrollbar"><div id="mCSB_3" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_3_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000033">
+                                                            局長簡介
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000034">
+                                                            副局長簡介
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000035">
+                                                            主任秘書簡介
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_3_scrollbar_vertical" class="mCSB_scrollTools mCSB_3_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_3_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0002813">
+                                                職掌與組織圖
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/Business">
+                                                組室業務介紹 
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_4 mCS_no_scrollbar"><div id="mCSB_4" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_4_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000162">
+                                                            森林企劃組業務介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000163">
+                                                            林政管理組業務介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000164">
+                                                            集水區治理組業務介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000165">
+                                                            造林生產組業務介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000166">
+                                                            森林育樂組業務介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000167">
+                                                            保育組業務介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000168">
+                                                            秘書室業務介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000169">
+                                                            人事室業務介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000170">
+                                                            主計室業務介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000171">
+                                                            政風室業務介紹
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_4_scrollbar_vertical" class="mCSB_scrollTools mCSB_4_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_4_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; display: block; height: 56px; max-height: 114px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/subsidiary">
+                                                所屬機關
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/contactus">
+                                                連絡資訊
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_5 mCS_no_scrollbar"><div id="mCSB_5" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_5_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000040">
+                                                            電話地址一覽表
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000041">
+                                                            緊急連絡一覽表
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_5_scrollbar_vertical" class="mCSB_scrollTools mCSB_5_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_5_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/maps">
+                                                交通資訊
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/suggestion">
+                                                首長信箱
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl04_Level1" data-parenid="10003221" class="">
+                                <a "="" target="_self" href="/taiwanwood">
+                                    <span>國產材專區</span>
+                                </a>
+                                <ul style="display: none;">
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0003225">
+                                                台灣木材標章
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_6 mCS_no_scrollbar"><div id="mCSB_6" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_6_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0003244">
+                                                            標章介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0003245">
+                                                            標章（示）驗證及申請
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0003246">
+                                                            臺灣林產品生產追溯系統
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_6_scrollbar_vertical" class="mCSB_scrollTools mCSB_6_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_6_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0003223">
+                                                國產木竹買賣
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_7 mCS_no_scrollbar"><div id="mCSB_7" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_7_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a title="另開視窗" target="_blank" href="https://www.taiwanwood.org.tw/" rel="nofollow">
+                                                            台灣木材網
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0003222">
+                                                            林務局木材標售
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a title="另開視窗" target="_blank" href="https://woodprice.forest.gov.tw/" rel="nofollow">
+                                                            木材市價
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_7_scrollbar_vertical" class="mCSB_scrollTools mCSB_7_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_7_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/techserve">
+                                                技術服務推廣
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_8 mCS_no_scrollbar"><div id="mCSB_8" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_8_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a title="另開視窗" target="_blank" href="https://www.cwcba-wqac.org.tw/forest-tech/" rel="nofollow">
+                                                            國家林產技術平臺
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a title="另開視窗" target="_blank" href="http://www.bambootw.net/" rel="nofollow">
+                                                            竹材產業技術諮詢中心
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0003392">
+                                                            創新林產科技產品介紹
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0003229">
+                                                            推廣文宣
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_8_scrollbar_vertical" class="mCSB_scrollTools mCSB_8_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_8_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/Driftwood">
+                                                漂流木專區
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_9 mCS_no_scrollbar"><div id="mCSB_9" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_9_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0003250">
+                                                            漂流木撿拾公告
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002682">
+                                                            懶人包專區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002346">
+                                                            民眾撿拾漂流木「3要」說明
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002343">
+                                                            處理天然災害漂流木應注意事項
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_9_scrollbar_vertical" class="mCSB_scrollTools mCSB_9_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_9_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/privforest">
+                                                林業多元輔導
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl05_Level1" data-parenid="10000011" class="travel">
+                                <a "="" target="_self" href="/travel">
+                                    <span>旅遊資訊</span>
+                                </a>
+                                <ul style="display: none;">
+        <li><div class="megaBanner slick-initialized slick-slider" style="">
+                        <div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; left: 0px;" role="listbox"><a href="https://www.forest.gov.tw/culture" target="_blank" title="(另開視窗)" rel="nofollow" class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 0px;"><img class=" lazyloaded" src="/Attachments/Banner/349/FileBanner.png" alt="林業文化園區" style="opacity: 1;"></a><a href="http://conservation.forest.gov.tw" target="_blank" title="(另開視窗)" rel="nofollow" class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 0px;" tabindex="-1" role="option" aria-describedby="slick-slide70"><img class=" lazyloaded" src="/Attachments/Banner/17/自然保育網.png" alt="自然保育網" style="opacity: 1;"></a><a href="http://recreation.forest.gov.tw/" target="_blank" title="(另開視窗)" rel="nofollow" class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 0px;" tabindex="-1" role="option" aria-describedby="slick-slide71"><img class=" lazyloaded" src="/Attachments/Banner/18/maga_banner2.png" alt="台灣山林悠遊網" style="opacity: 1;"></a><a href="https://www.forest.gov.tw/culture" target="_blank" title="(另開視窗)" rel="nofollow" class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 0px;" tabindex="-1" role="option" aria-describedby="slick-slide72"><img class=" lazyloaded" src="/Attachments/Banner/349/FileBanner.png" alt="林業文化園區" style="opacity: 1;"></a><a href="http://conservation.forest.gov.tw" target="_blank" title="(另開視窗)" rel="nofollow" class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" style="width: 0px;" tabindex="-1"><img class=" lazyloaded" src="/Attachments/Banner/17/自然保育網.png" alt="自然保育網" style="opacity: 1;"></a></div></div>
+                    
+                        
+                    
+                        
+                    </div></li>  
+    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/area">
+                                                國家森林遊樂區
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_10 mCS_no_scrollbar"><div id="mCSB_10" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_10_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000172">
+                                                            太平山國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000183">
+                                                            滿月圓國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000182">
+                                                            內洞國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000180">
+                                                            東眼山國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000179">
+                                                            觀霧國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000187">
+                                                            武陵國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000186">
+                                                            八仙山國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000185">
+                                                            大雪山國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000173">
+                                                            合歡山國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000176">
+                                                            奧萬大國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000184">
+                                                            阿里山國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000181">
+                                                            藤枝國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000177">
+                                                            墾丁國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000178">
+                                                            雙流國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000188">
+                                                            知本國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000189">
+                                                            向陽國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000174">
+                                                            池南國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000175">
+                                                            富源國家森林遊樂區
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_10_scrollbar_vertical" class="mCSB_scrollTools mCSB_10_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_10_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; display: block; height: 17px; max-height: 114px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/trail">
+                                                自然步道
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/park">
+                                                平地森林園區
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_11 mCS_no_scrollbar"><div id="mCSB_11" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_11_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000210">
+                                                            大農大富平地森林園區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000211">
+                                                            鰲鼓濕地森林園區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000212">
+                                                            林後四林平地森林園區
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_11_scrollbar_vertical" class="mCSB_scrollTools mCSB_11_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_11_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/culture">
+                                                林業文化園區
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_12 mCS_no_scrollbar"><div id="mCSB_12" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_12_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000221">
+                                                            林田山林業文化園區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000222">
+                                                            羅東林業文化園區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000223">
+                                                            東勢林業文化園區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000224">
+                                                            阿里山林業村及檜意森活村
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_12_scrollbar_vertical" class="mCSB_scrollTools mCSB_12_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_12_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; display: block; height: 97px; max-height: 114px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/nature">
+                                                自然教育中心
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_13 mCS_no_scrollbar"><div id="mCSB_13" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_13_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000213">
+                                                            東眼山自然教育中心
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000214">
+                                                            羅東自然教育中心
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000215">
+                                                            八仙山自然教育中心	
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000216">
+                                                            奧萬大自然教育中心
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000217">
+                                                            池南自然教育中心
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000218">
+                                                            觸口自然教育中心
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000219">
+                                                            知本自然教育中心
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000220">
+                                                            雙流自然教育中心
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_13_scrollbar_vertical" class="mCSB_scrollTools mCSB_13_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_13_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; display: block; height: 53px; max-height: 114px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/ecology">
+                                                生態教育館
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_14 mCS_no_scrollbar"><div id="mCSB_14" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_14_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000488">
+                                                            紅樹林生態教育館(新北市淡水區)
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000490">
+                                                            員山生態教育館(宜蘭縣員山鄉)
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000489">
+                                                            南澳生態教育館(宜蘭縣南澳鄉)
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000491">
+                                                            拉拉山生態教育館(桃園市復興區)
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000492">
+                                                            火炎山生態教育館(苗栗縣三義鄉)
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000493">
+                                                            二水臺灣獼猴生態教育館(彰化縣二水鄉)
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000496">
+                                                            阿里山生態教育館(嘉義縣阿里山鄉)
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000495">
+                                                            瑞穗生態教育館(花蓮縣瑞穗鄉)
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000494">
+                                                            大武山生態教育館(臺東縣太麻里鄉)
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_14_scrollbar_vertical" class="mCSB_scrollTools mCSB_14_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_14_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; display: block; height: 32px; max-height: 114px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="https://recreation.forest.gov.tw/Service/TPSR" rel="nofollow">
+                                                線上訂房系統
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="https://afrts.forest.gov.tw" rel="nofollow">
+                                                阿里山林業鐵路訂票系統
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl06_Level1" data-parenid="10000012" class="NoLv3">
+                                <a "="" target="_self" href="/conservation">
+                                    <span>自然保育</span>
+                                </a>
+                                <ul style="display: none;">
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="http://conservation.forest.gov.tw/" rel="nofollow">
+                                                自然保育網
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="http://conservation.forest.gov.tw/directory" rel="nofollow">
+                                                各類野生動物名錄公告
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="http://ecocorridor.forest.gov.tw/" rel="nofollow">
+                                                里山動物列車Ⅱ
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl07_Level1" data-parenid="10000018" class="">
+                                <a "="" target="_self" href="/resources">
+                                    <span>山林資源</span>
+                                </a>
+                                <ul style="display: none;">
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/forest">
+                                                森林資源
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_15 mCS_no_scrollbar"><div id="mCSB_15" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_15_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000050">
+                                                            國際林業新知
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000051">
+                                                            森林資源經營對碳吸存貢獻
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000052">
+                                                            森林資源調查成果
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000053">
+                                                            林務局所屬林道資料
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_15_scrollbar_vertical" class="mCSB_scrollTools mCSB_15_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_15_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/afforestation">
+                                                植樹造林
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_16 mCS_no_scrollbar"><div id="mCSB_16" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_16_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000055">
+                                                            獎勵造林資訊
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000056">
+                                                            企業及民間團體認養
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_16_scrollbar_vertical" class="mCSB_scrollTools mCSB_16_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_16_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/protection">
+                                                森林保護及管理
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/prevention">
+                                                工程生態友善
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_17 mCS_no_scrollbar"><div id="mCSB_17" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_17_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002990">
+                                                            生態友善機制
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002991">
+                                                            生態工程實例
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002992">
+                                                            疏伐材木構造工程
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002993">
+                                                            淤積土砂運用‧現地拌合工程
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_17_scrollbar_vertical" class="mCSB_scrollTools mCSB_17_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_17_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl08_Level1" data-parenid="10000019" class="">
+                                <a "="" target="_self" href="/public-info">
+                                    <span> 政府資訊公開</span>
+                                </a>
+                                <ul>
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/plan">
+                                                施政計畫
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/law">
+                                                法規資訊
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_18 mCS_no_scrollbar"><div id="mCSB_18" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_18_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000061">
+                                                            法律、法規及行政規則
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a title="另開視窗" target="_blank" href="http://explain.forest.gov.tw/" rel="nofollow">
+                                                            函釋查詢系統
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000063">
+                                                            獎勵造林業務解釋彙編
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000064">
+                                                            常見錯誤態樣
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_18_scrollbar_vertical" class="mCSB_scrollTools mCSB_18_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_18_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/facility">
+                                                公共設施維護管理
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_19 mCS_no_scrollbar"><div id="mCSB_19" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_19_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/roadmaintain">
+                                                            林道維護資訊
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a title="另開視窗" target="_blank" href="https://recreation.forest.gov.tw/Forestry_Rail/Rail_B.html" rel="nofollow">
+                                                            軌道維護資訊
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_19_scrollbar_vertical" class="mCSB_scrollTools mCSB_19_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_19_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/advertise">
+                                                政策宣導執行情形
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/comm-forest">
+                                                保安林解除審議委員會
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="http://conservation.forest.gov.tw/0000359" rel="nofollow">
+                                                野生動物保育諮詢委員會會議紀錄
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="http://conservation.forest.gov.tw/0000360" rel="nofollow">
+                                                行政院農業委員會自然地景及自然紀念物審議會
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/appeal">
+                                                訴願決定
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/budget">
+                                                法定預算及決算書
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/accounting">
+                                                會計報告
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/subsidy">
+                                                支付或接受之補助
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_20 mCS_no_scrollbar"><div id="mCSB_20" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_20_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000074">
+                                                            補捐助規定
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000075">
+                                                            補捐助情形
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_20_scrollbar_vertical" class="mCSB_scrollTools mCSB_20_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_20_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0002787">
+                                                內部控制制度聲明書專區
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/awards">
+                                                機關獎項專區
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/gov-award">
+                                                政府服務獎
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/personal">
+                                                個人資料保護
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="http://web.pcc.gov.tw/tps/pss/tender.do?method=goSearch&amp;searchMode=common&amp;orgId=3.45.4&amp;orgName=%E8%A1%8C%E6%94%BF%E9%99%A2%E8%BE%B2%E6%A5%AD%E5%A7%94%E5%93%A1%E6%9C%83%E6%9E%97%E5%8B%99%E5%B1%80&amp;searchType=basic&amp;tenderUpdate=null" rel="nofollow">
+                                                政府電子採購網
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/DataResource">
+                                                開放資料集
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/retirement">
+                                                退休人員專區
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="https://www.forest.gov.tw/library">
+                                                統計及出版品
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0003167">
+                                                重要公共工程建設及重大施政計畫選擇方案及替代方案之成本效益分析報告
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl09_Level1" data-parenid="10000020" class=" mobileShow NoLv3">
+                                <a "="" target="_self" href="/service">
+                                    <span>為您服務</span>
+                                </a>
+                                
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl10_Level1" data-parenid="10000021" class=" mobileShow NoLv3">
+                                <a "="" target="_self" href="/research">
+                                    <span>計畫與研究</span>
+                                </a>
+                                <ul>
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/report">
+                                                研究計畫成果
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/format">
+                                                委託研究計畫作業規範
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0000102">
+                                                出國報告查詢
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl11_Level1" data-parenid="10000022" class=" mobileShow">
+                                <a "="" target="_self" href="/library">
+                                    <span>統計與出版品</span>
+                                </a>
+                                <ul>
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/public">
+                                                出版品
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_21 mCS_no_scrollbar"><div id="mCSB_21" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_21_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002092">
+                                                            林務局簡介
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000107">
+                                                            林務局局誌
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000106">
+                                                            林務局年報
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000104">
+                                                            臺灣林業雙月刊
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000105">
+                                                            出版品目錄
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_21_scrollbar_vertical" class="mCSB_scrollTools mCSB_21_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_21_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/statistics">
+                                                林業統計
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_22 mCS_no_scrollbar"><div id="mCSB_22" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_22_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000110">
+                                                            統計成果
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0000111">
+                                                            資料查報
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_22_scrollbar_vertical" class="mCSB_scrollTools mCSB_22_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_22_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl12_Level1" data-parenid="10000023" class=" mobileShow NoLv3">
+                                <a "="" target="_self" href="/multimedia">
+                                    <span>社群及多媒體</span>
+                                </a>
+                                <ul>
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/videos">
+                                                熱門影音
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/photos">
+                                                魅力圖庫
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/Blogs">
+                                                機關部落格
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/fbfans">
+                                                粉絲專頁
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/streetview">
+                                                Google街景服務
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="https://www.youtube.com/channel/UC8r9KygvV33JfgSN66wr9OA" rel="nofollow">
+                                                Youtube頻道
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0002602">
+                                                直播專區
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="http://media.forest.gov.tw/mp.asp?mp=1" rel="nofollow">
+                                                影音資訊平台
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0003387">
+                                                森活好友會素材區
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl13_Level1" data-parenid="10000024" class=" mobileShow NoLv3">
+                                <a "="" target="_self" href="/link">
+                                    <span> 相關連結</span>
+                                </a>
+                                <ul>
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/link-in">
+                                                局內連結
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/link-out">
+                                                站外連結
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/link-policies">
+                                                政策主題專區
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/link-topic">
+                                                宣導主題網站連結
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/0003017">
+                                                英語數位學習專區
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        
+                            <li id="ctl00_rpt_MainNav_ctl14_Level1" data-parenid="10000025" class=" mobileShow">
+                                <a "="" target="_self" href="/web-service">
+                                    <span>網站服務</span>
+                                </a>
+                                <ul>
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/sitemap">
+                                                網站導覽
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a title="另開視窗" target="_blank" href="https://newsearch.forest.gov.tw/cgi-bin/search/qpage.cgi?act=simple&amp;uilang=" rel="nofollow">
+                                                全站搜尋
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/suggestion">
+                                                首長信箱
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/rss">
+                                                RSS訂閱
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/banner">
+                                                網站交換橫幅
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/security">
+                                                資訊安全政策
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/privacy">
+                                                隱私權保護政策
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/opendata">
+                                                政府網站資料開放宣告
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="http://ethics.forest.gov.tw">
+                                                廉政園地
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/gender">
+                                                性別平等
+                                            </a>
+                                            <ul class="mCustomScrollbar _mCS_23 mCS_no_scrollbar"><div id="mCSB_23" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" style="max-height: 124px;" tabindex="0"><div id="mCSB_23_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002105">
+                                                            性騷擾防治專區
+                                                        </a>
+                                                    </li>  
+                                                
+                                                    <li class="Level3">
+                                                        <a "="" target="_self" href="/0002106">
+                                                            性別平等專區
+                                                        </a>
+                                                    </li>  
+                                                </div><div id="mCSB_23_scrollbar_vertical" class="mCSB_scrollTools mCSB_23_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_23_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/bilingual">
+                                                雙語詞彙對照
+                                            </a>
+                                            
+                                        </li>
+                                    
+                                        <li class="Level2">
+                                            <a "="" target="_self" href="/faqs">
+                                                常見問答
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                            </li>                    
+                        </ul> 
+		</nav> 
+        </section>

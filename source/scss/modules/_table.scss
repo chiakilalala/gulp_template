@@ -4,6 +4,7 @@
 
 table {
     width: 100%;
+    background-color: #fff;
     // 顏色樣式
     @each $name,
     $value in $theme-color {
@@ -11,6 +12,49 @@ table {
             background-color: $value;
         }
     }
+}
+
+.table_result>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table_result>thead>tr>th:nth-child(5) {
+    width: 5%;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    word-wrap: break-word; //讓英文字斷行
+    // border-top: 1px solid #ddd;
+}
+
+.table>tbody>tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table_result,
+.table_member {
+    table-layout: fixed;
+}
+
+.table_member thead th {
+    background-color: $btn-color;
+    text-align: left;
+}
+
+.table_soft thead th {
+    background-color: #3D9AC6;
+}
+
+.table_result thead th {
+    background-color: #117aa6;
 }
 
 .table_main thead th {
@@ -21,12 +65,27 @@ table {
     background-color: $tab-color;
 }
 
+.table_member tbody>tr>td {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.table_member tbody tr,
+.table_result tbody tr,
 .table_tab_color tbody tr,
 .table_main tbody tr {
-    background-color: #fff;
     padding: 8px;
 }
 
+// .table_result tbody tr,
+// .table_result tbody tr td {
+//     border-left: 1px solid #333;
+//     border-right: 1px solid #333;
+// }
+.table_member tbody tr,
+.table_member tbody tr th,
+.table_soft tbody tr,
+.table_soft tbody tr th,
 .table_tab_color tbody tr,
 .table_tab_color tbody tr th,
 .table_main tbody tr,
@@ -234,7 +293,7 @@ _:-o-prefocus,
 
 .searchTerm {
     // width: 100%;
-    border: 3px solid #00B4CC;
+    border: 3px solid $primary;
     border-right: none;
     padding: 8px;
     height: 36px;
@@ -247,16 +306,16 @@ _:-o-prefocus,
 }
 
 .searchTerm:focus {
-    color: #00B4CC;
+    color: $primary;
 }
 
 .searchButton {
     width: 40px;
     height: 36px;
-    border: 1px solid #00B4CC;
-    background: #00B4CC;
+    border: 1px solid $primary;
+    background: $primary;
     text-align: center;
-    color: #fff;
+    color: $white;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 20px;

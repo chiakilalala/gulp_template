@@ -1,6 +1,6 @@
 $hero-img_desktop: '../../img/top_bg.svg';
 $hero-img_mobile: '../../img/top_bg.svg';
-$hero-height: pxTorem(750px);
+$hero-height: pxTorem(500px);
 .m-hero {
     position: relative;
     overflow: hidden;
@@ -53,6 +53,7 @@ $hero-height: pxTorem(750px);
     position: relative;
     padding-top: 2%;
     background: #fff;
+    padding-bottom: 39px;
 }
 
 .blog-slider {
@@ -61,13 +62,13 @@ $hero-height: pxTorem(750px);
     left: 0;
     right: 0;
     bottom: 0;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: auto;
-    background: #fff;
+    background: $white;
     box-shadow: 0 20px 30px 0 rgba(51, 51, 51, 0.1);
     padding: 0px;
     border-radius: 25px;
-    height: 580px;
+    height: 500px;
     transition: all .3s;
     @media screen and (max-width: 992px) {
         // max-width: 680px;

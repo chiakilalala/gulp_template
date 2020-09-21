@@ -1,0 +1,122 @@
+.list li {
+    margin: 3em 0 0 0;
+    padding: 0;
+}
+
+.element-item {
+    // display: none;
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: -8px 24px 30px 0 rgba(0, 0, 0, 0.15);
+}
+
+.element-item a {
+    display: flex;
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+
+// .element-item a:hover {
+//     box-shadow: -8px 24px 30px 0 rgba(0, 0, 0, 0.15);
+// }
+.newsContent {
+    padding: 1em 0 0 10px;
+    // margin: 20px 0;
+    .newsDate {
+        display: inline-block;
+        background: #29AAE6;
+        padding: 0px 17px 0px 17px;
+        color: #FFF;
+        font-size: 14px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        &_date {
+            padding: 0 60px 0 24px;
+        }
+    }
+    .semDate {
+        display: inline-block;
+        background: $btn-color;
+        padding: 5px 17px 5px 17px;
+        color: #FFF;
+        font-size: 14px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+    }
+}
+
+.newsContent .TextTitle2 {
+    margin: 20px 0px 0 0px;
+    color: $dark;
+    font-size: pxTorem(30px);
+    font-weight: bold;
+    line-height: 20px;
+    padding-bottom: pxTorem(30px);
+    border-bottom: 3px solid #3B86FF;
+}
+
+.newsContent .TextContent {
+    margin: 20px 0px 0 0px;
+    color: $dark;
+    font-size: pxTorem(16px);
+    line-height: 32px;
+}
+
+.TextContent {
+    // padding: 0 12px;
+}
+
+.news_wrapper {
+    margin: 61px 0;
+}
+
+.news_wrapper .items>li>a.expanded {
+    background-color: #4fb2cf;
+}
+
+.news_wrapper .items>li>a {
+    background-color: #bbf1f7;
+}
+
+.news-image-list {
+    float: left;
+    position: relative;
+    margin: 14px 12px 12px 14px;
+}
+
+.news-image-list img {
+    max-width: 290px;
+    padding-bottom: 0%;
+}
+
+.news-info-list {
+    margin-left: 0;
+    overflow: hidden;
+    padding: 0 0 0 6px;
+    position: relative;
+    text-align: start;
+    margin-top: 7px;
+}
+
+.newsTilte {
+    font-size: pxTorem(20px);
+    font-weight: bolder;
+    color: $dark;
+    padding-bottom: 7px;
+    margin-left: 10px;
+}
+
+.date_list {
+    display: inline-block;
+    background: $third-color;
+    padding: 5px 4px 5px 6px;
+    color: #FFF;
+    font-size: 16px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.newsContent {
+    padding: 1em;
+    margin: 20px 0;
+}

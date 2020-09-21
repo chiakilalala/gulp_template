@@ -59,3 +59,17 @@
         }
     }
 }
+
+.e-sitemap {
+    max-width: 980px;
+    margin: 0 auto;
+    .title {
+        display: block;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #333;
+        padding-bottom: 16px;
+        border-bottom: 2px solid $primary;
+        margin-bottom: 20px;
+    }
+}

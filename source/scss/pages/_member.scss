@@ -1,0 +1,98 @@
+.mem_title {
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 25px;
+    background: $info;
+    margin: 30px 0;
+    &:before {
+        content: '{';
+        margin-right: 10px;
+    }
+    &:after {
+        content: '}';
+        margin-left: 10px;
+    }
+    &:after,
+    &:before {
+        color: $primary;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    h3 {
+        position: relative;
+        clear: both;
+        font-size: pxTorem(20px);
+        display: inline;
+    }
+}
+
+.des_text {
+    padding-top: 15px;
+    color: $dark;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 26px;
+    /* text-align: justify;*/
+    height: 200px;
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #e4e4e4;
+    font-size: 13px;
+    background-color: #fff;
+    overflow-y: scroll;
+    ul li {
+        font-size: pxTorem(18px);
+        padding-bottom: 12px;
+    }
+    p {
+        color: #999;
+        font-size: pxTorem(18px);
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+}
+
+p.tit2 {
+    color: $primary;
+    font-size: pxTorem(20px);
+    padding: 10px 0;
+    font-weight: bolder;
+}
+
+.table_tit {
+    th {
+        background-color: $primary;
+        text-align: left;
+    }
+}
+
+.read_copyright {
+    h1 {
+        font-weight: bolder;
+    }
+}
+
+label .data_agree {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.read_copyright {
+    color: #000;
+    font-weight: 300;
+    p {
+        font-size: pxTorem(18px);
+    }
+}
+
+.role {
+    background-color: #fff;
+    display: flex;
+    margin: 20px 0;
+    padding: 10px;
+    li {
+        padding-right: 12px;
+    }
+}

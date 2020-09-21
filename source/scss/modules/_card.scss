@@ -1,12 +1,30 @@
 .m-card {
+    transition: 0.5s;
     position: relative;
     display: flex;
     color: $secondary;
-    // max-width: pxTorem(300px);
-    background-color: $white;
     transition: 0.5s;
+    border-radius: 5px;
+    width: 90%;
+    background: $white;
+    padding: pxTorem(15px) pxTorem(10px);
+    flex-direction: column;
+    img {
+        width: 100%;
+        border-radius: 5px;
+        transition: all .25s ease-in-out;
+    }
+    p {
+        margin: 5px auto;
+        padding: 0;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        width: calc(100% - 3px);
+        text-overflow: ellipsis;
+    }
     &:hover {
-        @include shadow__deeper;
+        @include box-shadow(3px, 5px, 20px, rgba(0, 0, 0, 0.02))
     }
     @include mobile_768 {
         // max-width: pxTorem(368px);

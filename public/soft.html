@@ -4,20 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>教育訓練</title>
+    <title>軟體模擬分析
+    </title>
     <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
     <link rel="stylesheet" href="./css/all.css">
     <script src="./js/jquery.3.31.js">
     </script>
 
-    <script src="./js/jquery.ui.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous"></script>
+    <script src="./js/jquery.ui.js "></script>
     <script src="./js/jquery.mCustomScrollbar.concat.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
 </head>
 
 <body>
-    <div class="wrapper wrapper_color">
+    <div class="wrapper wrapper_color outerWrap">
+          <!-- searchArea -->
+        <div class="searchArea" style="">
+            <!-- searchArea -->
+            <a href="javascript:;" class="btnClose">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="inner">
+                <!-- inner -->
+                <form class="search-container">
+                    <input type="text" id="search-bar" placeholder="搜尋關鍵字...">
+                    <button type="submit" class="search_Button">
+                        <i class="fa fa-search"></i>
+                     </button>
+                </form>
+                <!-- inner end -->
+            </div>
+
+        </div>
+        <!--loginArea-->
+        <div class="loginArea moduleBox" id="moduleMember">
+            <div class="box">
+                <!--box-->
+                <a id="closeLogin" class="moduleClose"><i class="fas fa-times"></i></a>
+                <div class="login">
+                    <!--login-->
+                    <h4 class="m-member-form__title h-t4">會員登入</h4>
+
+                    <label class="m-member-form__label" for="帳號">*帳號</label>
+                    <div class="e-form-square mb-1">
+                        <i class="e-form-square__icon far fa-user"></i>
+                        <input class="e-form-square__input" type="email" id="email" name="email">
+                    </div>
+                    <label class="m-member-form__label" for="密碼">*密碼</label>
+                    <div class="e-form-square mb-1"><i class="e-form-square__icon fas fa-lock"></i>
+                        <input class="e-form-square__input" type="password" id="password" name="password">
+                    </div>
+                    <label class="m-member-form__label" for="驗證碼">*驗證碼</label>
+                    <div class="e-form-square__vertify mb-1 m-member-form__buttons">
+
+                        <input class="e-form-square__input" type="text">
+                        <img src="./img/vertify.png" alt="" class="e-img">
+                    </div>
+                    <div class="btn">
+                        <a class="login_btn_status" style="cursor:pointer" onclick="login_btn();">登入</a><i class="fa fa-spinner fa-spin login_loading_status" style="display:none"></i>
+                    </div>
+                    <div class="btns ">
+                        <a class="btn_forget">忘記密碼</a>
+                    </div>
+                    <div class="btns">
+                        還不是會員?
+                        <a class="btn_register" onclick="location.href='">註冊會員</a>
+                    </div>
+                </div>
+                <!--login end-->
+                <div class="forgetCheck">
+                    <!--forgetCheck-->
+                    <h4 class="m-member-form__title h-t4">查詢密碼</h4>
+                    <p class="my-2">請輸入您申請會員時填寫的資料， 核對無誤後，系統會將您的密碼寄至您的聯絡信箱：
+                    </p>
+                    <label class="m-member-form__label" for="帳號">* 註冊帳號</label>
+                    <div class="e-form-square mb-1">
+                        <i class="e-form-square__icon far fa-user"></i>
+                        <input class="e-form-square__input" type="email" id="email_check" name="email">
+                    </div>
+                    <label class="m-member-form__label" for="密碼">*註冊密碼</label>
+                    <div class="e-form-square mb-1"><i class="e-form-square__icon fas fa-lock"></i>
+                        <input class="e-form-square__input" type="password" id="password_check" name="password">
+                    </div>
+                    <div class="btn">
+                        <a class="btn_color1 forget_btn_status">查詢</a>
+                    </div>
+                    <div class="btns my-2">
+                        <a class="btn_relog ">重新登入</a>
+                    </div>
+                    <p class="h-m1"><i class=" fa fa-circle-notch"></i> 如為企業用戶，註冊email為貴公司聯絡窗口email </p>
+                </div>
+                <!--forgetCheck end-->
+            </div>
+            <!--box end-->
+        </div>
+        <!--loginArea end-->
         <section class="Nav">
             <nav class="topNavWrap">
 
@@ -252,7 +337,7 @@
             </nav>
         </section>
 
-        <section class="imgLiquid bannerPic imgLiquid_bgSize imgLiquid_ready" style="background-image: url(https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+        <section class=" bannerPic " style="background-image: url(https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80); background-size: cover; background-position: center center; background-repeat: no-repeat;">
 
             <div class="container">
                 <div class="col-md-12">
@@ -272,15 +357,15 @@
                             <ul class="e-breadcrumb">
                                 <li>首頁</li>
                                 <li>軟體模擬分析</li>
-                                <li>軟體簡介</li>
+                                <li>模擬執行</li>
                             </ul>
 
 
                             <div class="toolbar mb-4">
-
+                                <p class="thankInfo "> 需先進入會員 才會顯示預約軟體畫面 </p>
 
                                 <div class="search">
-                                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                                    <input type="text" class="searchTerm" placeholder="尋找關鍵字?">
                                     <button type="submit" class="searchButton">
                                 <i class="fa fa-search"></i>
                              </button>
@@ -290,7 +375,7 @@
                             <div class="clearfix">
                             </div>
                             <div class="table-responsive ">
-                                <table class="table table-bordered  table_main">
+                                <table class="table table-bordered  table_soft">
                                     <thead>
                                         <tr>
                                             <th>#</th>

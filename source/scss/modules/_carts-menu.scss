@@ -1,8 +1,11 @@
 .m-search-menu {
-    background: $menu_color;
+    font-size: pxTorem(16px);
     // @include mobile_576 {
     //     margin-top: pxTorem(50px);
     // }
+    &__list {
+        padding-left: 13px;
+    }
     &__title {
         display: flex;
         // align-items: center;
@@ -28,15 +31,18 @@
         display: flex;
         align-items: center;
         transition: 0.5s;
-        border-bottom: 1px solid $primary;
+        border-bottom: 1px dashed $primary;
         padding: pxTorem(8px);
-        &:hover {
-            background-color: rgba($primary, 0.8);
-            color: white;
-        }
+        font-size: pxTorem(16px);
+        font-weight: bolder;
+        color: #4D4F5C;
         &:active,
         &.is-active {
-            background-color: $primary;
+            // background-color: $primary;
+            color: #3B86FF;
+        }
+        &:hover {
+            background-color: rgba($primary, 0.8);
             color: white;
         }
         &.is-disabled {
@@ -116,4 +122,23 @@ input[type=checkbox]:checked::after {
     color: $black;
     border-radius: pxTorem(2px);
     height: pxTorem(36px);
+}
+
+.m-adressBook {
+    margin: 10px 0 0 0;
+    display: flex;
+    padding: 10px 15px;
+    background-color: white;
+    ul {
+        // margin-top: pxTorem(20px);
+        padding-left: pxTorem(10px);
+    }
+    ul li {
+        margin: 15px 0;
+        font-size: pxTorem(16px);
+        color: $dark;
+        a {
+            color: $dark;
+        }
+    }
 }

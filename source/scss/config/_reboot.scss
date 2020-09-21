@@ -102,8 +102,7 @@ input:focus {
 }
 
 ::placeholder {
-    color: $white;
-    opacity: 0.5;
+    color: $dark;
     font-size: $font-b;
     @include mobile_576 {
         color: $dark;

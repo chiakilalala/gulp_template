@@ -38,10 +38,18 @@
 @import 'modules/reserve-form';
 @import 'modules/swiper';
 @import'modules/table';
+@import 'modules/light';
+@import'modules/modal';
+@import 'modules/accordions';
+@import 'modules/tabs';
+@import 'modules/search';
 // layout
 @import 'layout/footer';
 @import 'layout/header';
 // pages
 @import 'pages/index';
 @import 'pages/carts';
+@import 'pages/news';
 @import 'pages/comment';
+@import 'pages/photo';
+@import 'pages/member';
